@@ -84,8 +84,8 @@ int main(int argc, char *argv[])
       cout << "Comando help" << endl;
       #endif
       
-      cout << "--help    Imprime a lista de opções da aplicação." << endl;
-      cout << "--search  Busca pelo título da media." << endl;
+      cout << "--help    Imprime a lista de opcoes da aplicacao." << endl;
+      cout << "--search  Busca pelo titulo da media." << endl;
       cout << "--type    Retorna o tipo media selecionado. (movie, series, episode)" << endl;
     }
 
