@@ -94,7 +94,7 @@ Website - https://marvel.com/guardians
 
 * Nos envie o código através de um repositório Git. (GitHub, Bitbucket, etc)
 
-# Instruções de utilização:
+### Instruções de utilização:
 
 * Para compilar o arquivo .cpp utilizar a seguinte linha de comando: g++ movies.cpp -o movies -lcurl
 
