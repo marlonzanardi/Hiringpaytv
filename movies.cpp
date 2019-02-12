@@ -3,9 +3,9 @@
 **                  
 **--------------Informação do Arquivo -----------------------------------------------------------------
 ** Nome do Arquivo:          movies.cpp
-** Data Ultima Modificação:  08-02-19
+** Data Ultima Modificação:  12-02-19
 ** Ultima Versão:            Sim
-** Descrição:                Aplicação main para chamada de funções.   
+** Descrição:                Aplicação main para chamada da aplicação.
 **------------------------------------------------------------------------------------------------------
 ** Criado por:          Marlon Zanardi <marlon.zanardi95@hotmail.com>
 ** Data de Criação:     08-02-19       
@@ -51,7 +51,7 @@ std::string buffer;
 
 /* Prototipo. */
 size_t curl_write(void *ptr, size_t size, size_t nmemb, void *stream);
-int busca_titulo(string tmptitle, int tipo);
+bool busca_titulo(string tmptitle, int tipo);
 
 /*******************************************************************************************************
 ** Nome da Função:       main
@@ -182,7 +182,7 @@ int main(int argc, char *argv[])
 ** Parametro:            tmptitle = Titulo a ser procurado,tipo = Tipo do retorno desejado.
 ** Valor de retorno:     1 - Sucesso, 0 - Falha.
 *********************************************************************************************************/
-int busca_titulo(string tmptitle, int tipo)
+bool busca_titulo(string tmptitle, int tipo)
 {  
   int start,i;
   CURL *curl;
@@ -250,7 +250,7 @@ int busca_titulo(string tmptitle, int tipo)
         if (tipo == FULL)
 	{	    
 	  Value& name = d["Title"];
-    	  Value& year = d["Year"];
+      Value& year = d["Year"];
 	  Value& genre = d["Genre"];
 	  Value& plot = d["Plot"];
 	  Value& runtime = d["Runtime"];

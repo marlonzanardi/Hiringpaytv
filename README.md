@@ -96,9 +96,13 @@ Website - https://marvel.com/guardians
 
 ### Instruções de utilização:
 
-* Para compilar o arquivo .cpp utilizar a seguinte linha de comando: g++ movies.cpp -o movies -lcurl
+* O executavel já se encontra no repósitório.
+
+* Para compilar o arquivo .cpp novamente basta utilizar a seguinte linha de comando: g++ movies.cpp -o movies -lcurl
 
 * É necessario a pasta rapidjson estar no repósitório para utilização da biblioteca
+
+* Descomentar linha: #define DEBUG para visualizar os debugs no código.
 
 * É recomendado ter os pacotes de serviço curl atualizado em seu OS.
 
