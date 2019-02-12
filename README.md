@@ -98,7 +98,9 @@ Website - https://marvel.com/guardians
 
 * O executavel já se encontra no repósitório.
 
-* Para compilar o arquivo .cpp novamente basta utilizar a seguinte linha de comando: g++ movies.cpp -o movies -lcurl
+* Para alterar permissão para rodar o executavel utilizar a seguinte linha de comando: $ chmod +x movies
+
+* Para compilar o arquivo .cpp novamente basta utilizar a seguinte linha de comando: $ g++ movies.cpp -o movies -lcurl
 
 * É necessario a pasta rapidjson estar no repósitório para utilização da biblioteca
 
