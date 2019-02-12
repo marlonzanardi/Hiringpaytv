@@ -8,6 +8,7 @@
 ** Descrição:                Aplicação main para chamada da aplicação.
 **------------------------------------------------------------------------------------------------------
 ** Criado por:          Marlon Zanardi <marlon.zanardi95@hotmail.com>
+						https://www.linkedin.com/in/marlon-zanardi-965291147/
 ** Data de Criação:     08-02-19       
 ********************************************************************************************************/
 
